@@ -1,0 +1,18 @@
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 2.25rem 0;
+  background: var(--bg-soft);
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+}
+
+.footer__slogan {
+  color: var(--ink-soft);
+}

@@ -1,0 +1,38 @@
+.blogs__lead {
+  max-width: 56ch;
+  margin: -1.5rem 0 2.5rem;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.blog-card {
+  display: block;
+  padding: 1.75rem;
+}
+
+.blog-card__icon {
+  font-size: 1.3rem;
+  color: var(--brand-2);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.blog-card h3 {
+  font-size: 1.08rem;
+  margin-bottom: 0.6rem;
+}
+
+.blog-card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 780px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}

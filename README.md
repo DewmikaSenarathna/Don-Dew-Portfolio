@@ -13,3 +13,7 @@ Don_Dew_Portfolio/
 ├── server/     Express API — a single POST /api/contact endpoint
 └── README.md   You are here
 ```
+
+## How to View:
+To view the website, you can visit it directly on [Don Dew Portfolio](https://frontend-dev-d3c1.vercel.app/).
+
